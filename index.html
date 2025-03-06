@@ -1,0 +1,354 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prime Estates | Your Dream Home Awaits</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <div class="logo">
+        <h1>Prime<span>Estates</span></h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#" class="active">Home</a></li>
+          <li><a href="#properties">Properties</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <h1>Find Your Dream Home</h1>
+      <p>Discover luxury properties in prime locations</p>
+      <div class="search-bar">
+        <input type="text" placeholder="Search location...">
+        <select>
+          <option value="">Property Type</option>
+          <option value="apartment">Apartment</option>
+          <option value="house">House</option>
+          <option value="villa">Villa</option>
+          <option value="commercial">Commercial</option>
+        </select>
+        <select>
+          <option value="">Price Range</option>
+          <option value="100k-300k">$100k - $300k</option>
+          <option value="300k-500k">$300k - $500k</option>
+          <option value="500k-1m">$500k - $1M</option>
+          <option value="1m+">$1M+</option>
+        </select>
+        <button type="submit">Search</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="featured" class="featured">
+    <div class="container">
+      <h2>Featured Properties</h2>
+      <div class="property-grid">
+        <div class="property-card">
+          <div class="property-image">
+            <span class="property-status">For Sale</span>
+            <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="Luxury Villa">
+          </div>
+          <div class="property-details">
+            <h3>Luxury Villa with Pool</h3>
+            <p class="property-address"><i class="fas fa-map-marker-alt"></i> 123 Sunset Blvd, Beverly Hills</p>
+            <p class="property-price">$2,500,000</p>
+            <div class="property-features">
+              <span><i class="fas fa-bed"></i> 5 Beds</span>
+              <span><i class="fas fa-bath"></i> 4 Baths</span>
+              <span><i class="fas fa-ruler-combined"></i> 4,200 sq ft</span>
+            </div>
+            <a href="#" class="btn-view">View Property</a>
+          </div>
+        </div>
+        
+        <div class="property-card">
+          <div class="property-image">
+            <span class="property-status">For Rent</span>
+            <img src="https://images.unsplash.com/photo-1613490493576-7fde63acd811?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="Modern Apartment">
+          </div>
+          <div class="property-details">
+            <h3>Modern Downtown Apartment</h3>
+            <p class="property-address"><i class="fas fa-map-marker-alt"></i> 456 Downtown Ave, Seattle</p>
+            <p class="property-price">$3,800/month</p>
+            <div class="property-features">
+              <span><i class="fas fa-bed"></i> 2 Beds</span>
+              <span><i class="fas fa-bath"></i> 2 Baths</span>
+              <span><i class="fas fa-ruler-combined"></i> 1,200 sq ft</span>
+            </div>
+            <a href="#" class="btn-view">View Property</a>
+          </div>
+        </div>
+        
+        <div class="property-card">
+          <div class="property-image">
+            <span class="property-status">For Sale</span>
+            <img src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="Family Home">
+          </div>
+          <div class="property-details">
+            <h3>Suburban Family Home</h3>
+            <p class="property-address"><i class="fas fa-map-marker-alt"></i> 789 Maple St, Portland</p>
+            <p class="property-price">$850,000</p>
+            <div class="property-features">
+              <span><i class="fas fa-bed"></i> 4 Beds</span>
+              <span><i class="fas fa-bath"></i> 3 Baths</span>
+              <span><i class="fas fa-ruler-combined"></i> 2,800 sq ft</span>
+            </div>
+            <a href="#" class="btn-view">View Property</a>
+          </div>
+        </div>
+        
+        <div class="property-card">
+          <div class="property-image">
+            <span class="property-status">For Sale</span>
+            <img src="https://images.unsplash.com/photo-1580587771525-78b9dba3b914?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="Modern Mansion">
+          </div>
+          <div class="property-details">
+            <h3>Ultra-Modern Waterfront Mansion</h3>
+            <p class="property-address"><i class="fas fa-map-marker-alt"></i> 555 Ocean Drive, Miami</p>
+            <p class="property-price">$4,750,000</p>
+            <div class="property-features">
+              <span><i class="fas fa-bed"></i> 6 Beds</span>
+              <span><i class="fas fa-bath"></i> 7 Baths</span>
+              <span><i class="fas fa-ruler-combined"></i> 6,500 sq ft</span>
+            </div>
+            <a href="#" class="btn-view">View Property</a>
+          </div>
+        </div>
+        
+        <div class="property-card">
+          <div class="property-image">
+            <span class="property-status">For Rent</span>
+            <img src="https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="City Loft">
+          </div>
+          <div class="property-details">
+            <h3>Stylish Downtown Loft</h3>
+            <p class="property-address"><i class="fas fa-map-marker-alt"></i> 123 Urban St, Chicago</p>
+            <p class="property-price">$2,900/month</p>
+            <div class="property-features">
+              <span><i class="fas fa-bed"></i> 1 Bed</span>
+              <span><i class="fas fa-bath"></i> 1 Bath</span>
+              <span><i class="fas fa-ruler-combined"></i> 950 sq ft</span>
+            </div>
+            <a href="#" class="btn-view">View Property</a>
+          </div>
+        </div>
+        
+        <div class="property-card">
+          <div class="property-image">
+            <span class="property-status">For Sale</span>
+            <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="Country House">
+          </div>
+          <div class="property-details">
+            <h3>Charming Country Retreat</h3>
+            <p class="property-address"><i class="fas fa-map-marker-alt"></i> 789 Rural Road, Vermont</p>
+            <p class="property-price">$695,000</p>
+            <div class="property-features">
+              <span><i class="fas fa-bed"></i> 3 Beds</span>
+              <span><i class="fas fa-bath"></i> 2 Baths</span>
+              <span><i class="fas fa-ruler-combined"></i> 2,400 sq ft</span>
+            </div>
+            <a href="#" class="btn-view">View Property</a>
+          </div>
+        </div>
+      </div>
+      <div class="view-all">
+        <a href="#" class="btn">View All Properties</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="services" class="services">
+    <div class="container">
+      <h2>Our Services</h2>
+      <div class="service-grid">
+        <div class="service-card">
+          <i class="fas fa-home"></i>
+          <h3>Property Sales</h3>
+          <p>We help you find the perfect property that matches your needs and budget.</p>
+        </div>
+        <div class="service-card">
+          <i class="fas fa-key"></i>
+          <h3>Rental Services</h3>
+          <p>Find your ideal rental property with our extensive listings and expert guidance.</p>
+        </div>
+        <div class="service-card">
+          <i class="fas fa-chart-line"></i>
+          <h3>Property Management</h3>
+          <p>We handle all aspects of property management to maximize your investment returns.</p>
+        </div>
+        <div class="service-card">
+          <i class="fas fa-clipboard-list"></i>
+          <h3>Consultation</h3>
+          <p>Get expert advice on real estate investments and market trends.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <div class="container">
+      <div class="about-content">
+        <div class="about-text">
+          <h2>About Prime Estates</h2>
+          <p>Prime Estates has been the leading real estate agency in the region for over 15 years. Our team of experienced professionals is dedicated to providing exceptional service and finding the perfect property solutions for our clients.</p>
+          <p>With a deep understanding of the local market and a commitment to excellence, we have helped thousands of clients buy, sell, and rent properties with confidence.</p>
+          <a href="#" class="btn">Learn More</a>
+        </div>
+        <div class="about-image">
+          <img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="Real Estate Team">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="testimonials" class="testimonials">
+    <div class="container">
+      <h2>What Our Clients Say</h2>
+      <div class="testimonial-slider">
+        <div class="testimonial">
+          <div class="testimonial-text">
+            <p>"Prime Estates helped me find my dream home in just two weeks! Their knowledge of the market and attention to my requirements was impressive."</p>
+          </div>
+          <div class="testimonial-author">
+            <img src="https://randomuser.me/api/portraits/women/32.jpg" alt="Sarah Johnson">
+            <div>
+              <h4>Sarah Johnson</h4>
+              <p>Home Buyer</p>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial">
+          <div class="testimonial-text">
+            <p>"I've worked with many real estate agents over the years, but the team at Prime Estates truly stands out for their professionalism and results."</p>
+          </div>
+          <div class="testimonial-author">
+            <img src="https://randomuser.me/api/portraits/men/44.jpg" alt="Michael Chen">
+            <div>
+              <h4>Michael Chen</h4>
+              <p>Property Investor</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <div class="contact-content">
+        <div class="contact-form">
+          <form>
+            <div class="form-group">
+              <label for="name">Full Name</label>
+              <input type="text" id="name" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" required>
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone</label>
+              <input type="tel" id="phone">
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="btn">Send Message</button>
+          </form>
+        </div>
+        <div class="contact-info">
+          <div class="info-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <div>
+              <h4>Office Address</h4>
+              <p>1234 Real Estate Blvd, Suite 500<br>New York, NY 10001</p>
+            </div>
+          </div>
+          <div class="info-item">
+            <i class="fas fa-phone"></i>
+            <div>
+              <h4>Phone</h4>
+              <p>(555) 123-4567</p>
+            </div>
+          </div>
+          <div class="info-item">
+            <i class="fas fa-envelope"></i>
+            <div>
+              <h4>Email</h4>
+              <p>info@primeestates.com</p>
+            </div>
+          </div>
+          <div class="info-item">
+            <i class="fas fa-clock"></i>
+            <div>
+              <h4>Working Hours</h4>
+              <p>Monday - Friday: 9AM - 6PM<br>Saturday: 10AM - 4PM</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-about">
+          <h3>Prime<span>Estates</span></h3>
+          <p>Your trusted partner in finding the perfect property. With years of experience and a dedication to client satisfaction, we're here to help you make the right real estate decisions.</p>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+        <div class="footer-links">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#properties">Properties</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-newsletter">
+          <h3>Newsletter</h3>
+          <p>Subscribe to our newsletter for the latest property listings and real estate news.</p>
+          <form>
+            <input type="email" placeholder="Your Email Address">
+            <button type="submit">Subscribe</button>
+          </form>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2023 Prime Estates. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="properties.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+  <div class="scroll-to-top">
+    <i class="fas fa-chevron-up"></i>
+  </div>
